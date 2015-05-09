@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     #My app's
     'compras',
     'ventas',
+    'proovedores',
 )
 
 MIDDLEWARE_CLASSES = (
