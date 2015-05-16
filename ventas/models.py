@@ -9,7 +9,7 @@ from formato.tipo_operaciones import q
 
 class Venta(models.Model):
     tipo_comprobante = models.CharField(max_length=2, choices= p)
-    text = models.CharField(max_length=20)
+    #text = models.CharField(max_length=20)
     zona = models.CharField(max_length=3, choices= q)
     cliente = models.ForeignKey(Cliente)
     serie = models.PositiveSmallIntegerField(default = 0)
